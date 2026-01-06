@@ -7,6 +7,7 @@ const FORMAT_DIMENSIONS: Record<FormatID, { w: number; h: number }> = {
   'post_1_1': { w: 1080, h: 1080 },
   'story_9_16': { w: 1080, h: 1920 },
   'cover_16_9': { w: 1920, h: 1080 },
+  'portrait_4_5': { w: 768, h: 960 },
 };
 
 interface EngineState {

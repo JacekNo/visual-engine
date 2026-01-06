@@ -1,16 +1,21 @@
 // src/types/schema.ts
 
 // --- 1. DOMENY BRANDOWE ---
-export type BrandID = 'TM' | 'LO' | 'LP' | 'ED' | 'MIX';
+export type BrandID = 'TM' | 'LO' | 'LP' | 'ED' | 'MIX'; 
 
 // --- 2. KONTEKST MOTION (Fizyka ruchu) ---
 export type MotionProfile = 'promo_stable' | 'lifestyle_organic' | 'event_energy';
 
 // --- 3. FORMATY (Wymiary) ---
-export type FormatID = 'story_9_16' | 'post_1_1' | 'cover_16_9';
+export type FormatID = 'story_9_16' | 'post_1_1' | 'cover_16_9' | 'portrait_4_5';
 
 // --- 4. SZABLONY UKŁADU ---
 export type LayoutVariant = 'neutral_gray' | 'full_color' | 'natural_photo';
+// src/types/schema.ts
+
+
+
+// ... reszta pliku bez zmian
 
 // --- GŁÓWNY PAYLOAD (To co UI wysyła do Silnika) ---
 export interface RenderPayload {
